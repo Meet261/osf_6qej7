@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cat <<EOF > /home/jovyan/.Rprofile
+try(setwd("/home/jovyan/6qej7_src/Analysis Code"), silent = TRUE)
+EOF
