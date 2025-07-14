@@ -1,5 +1,3 @@
 #!/bin/bash
 
-cat <<EOF > /home/jovyan/.Rprofile
-setwd("/home/jovyan/6qej7_src/Analysis Code")
-EOF
+echo 'setwd("/home/jovyan/6qej7_src/Analysis Code")' >> /home/jovyan/.Rprofile
